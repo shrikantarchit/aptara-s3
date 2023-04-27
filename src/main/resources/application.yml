@@ -1,0 +1,24 @@
+cloud:
+  aws:
+    credentials:
+      access-key: AKIAUX5UEI3G4XUODEFI
+      secret-key: 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
+    region:
+      static: ap-south-1
+    stack:
+      auto: false
+
+application:
+  bucket:
+    name: archit-aptara
+
+
+spring:
+  servlet:
+    multipart:
+      enabled: true
+      max-file-size: 10000MB
+      max-request-size: 10000MB
+
+server:
+  port: 8081
