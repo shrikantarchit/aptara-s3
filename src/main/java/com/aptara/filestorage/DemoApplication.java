@@ -14,6 +14,11 @@ public class DemoApplication  extends SpringBootServletInitializer{
 
 	public static void main(String[] args) {
 		SpringApplication.run(DemoApplication.class, args);
+<<<<<<< Updated upstream
+		System.out.println("dev change");
+=======
+		System.out.println("qa change");
+>>>>>>> Stashed changes
 	}
 
 	 @Override
@@ -23,4 +28,5 @@ public class DemoApplication  extends SpringBootServletInitializer{
 	    
 	  }
  
+	 
 }
